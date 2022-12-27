@@ -11,6 +11,12 @@
 		18BF4522295AEBC000B21A40 /* CoditasUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18BF4517295AEBC000B21A40 /* CoditasUtil.framework */; };
 		18BF4527295AEBC000B21A40 /* CoditasUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF4526295AEBC000B21A40 /* CoditasUtilTests.swift */; };
 		18BF4528295AEBC000B21A40 /* CoditasUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 18BF451A295AEBC000B21A40 /* CoditasUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18BF4538295AED0100B21A40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF4537295AED0100B21A40 /* AppDelegate.swift */; };
+		18BF453A295AED0100B21A40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF4539295AED0100B21A40 /* SceneDelegate.swift */; };
+		18BF453C295AED0100B21A40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BF453B295AED0100B21A40 /* ViewController.swift */; };
+		18BF453F295AED0100B21A40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BF453D295AED0100B21A40 /* Main.storyboard */; };
+		18BF4541295AED0400B21A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BF4540295AED0400B21A40 /* Assets.xcassets */; };
+		18BF4544295AED0400B21A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BF4542295AED0400B21A40 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,14 @@
 		18BF451B295AEBC000B21A40 /* CoditasUtil.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = CoditasUtil.docc; sourceTree = "<group>"; };
 		18BF4521295AEBC000B21A40 /* CoditasUtilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoditasUtilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BF4526295AEBC000B21A40 /* CoditasUtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoditasUtilTests.swift; sourceTree = "<group>"; };
+		18BF4535295AED0100B21A40 /* CoditasYtilExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoditasYtilExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BF4537295AED0100B21A40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18BF4539295AED0100B21A40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18BF453B295AED0100B21A40 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18BF453E295AED0100B21A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18BF4540295AED0400B21A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BF4543295AED0400B21A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18BF4545295AED0400B21A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +61,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18BF4532295AED0100B21A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -55,6 +76,7 @@
 			children = (
 				18BF4519295AEBC000B21A40 /* CoditasUtil */,
 				18BF4525295AEBC000B21A40 /* CoditasUtilTests */,
+				18BF4536295AED0100B21A40 /* CoditasYtilExample */,
 				18BF4518295AEBC000B21A40 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -64,6 +86,7 @@
 			children = (
 				18BF4517295AEBC000B21A40 /* CoditasUtil.framework */,
 				18BF4521295AEBC000B21A40 /* CoditasUtilTests.xctest */,
+				18BF4535295AED0100B21A40 /* CoditasYtilExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +106,20 @@
 				18BF4526295AEBC000B21A40 /* CoditasUtilTests.swift */,
 			);
 			path = CoditasUtilTests;
+			sourceTree = "<group>";
+		};
+		18BF4536295AED0100B21A40 /* CoditasYtilExample */ = {
+			isa = PBXGroup;
+			children = (
+				18BF4537295AED0100B21A40 /* AppDelegate.swift */,
+				18BF4539295AED0100B21A40 /* SceneDelegate.swift */,
+				18BF453B295AED0100B21A40 /* ViewController.swift */,
+				18BF453D295AED0100B21A40 /* Main.storyboard */,
+				18BF4540295AED0400B21A40 /* Assets.xcassets */,
+				18BF4542295AED0400B21A40 /* LaunchScreen.storyboard */,
+				18BF4545295AED0400B21A40 /* Info.plist */,
+			);
+			path = CoditasYtilExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +172,23 @@
 			productReference = 18BF4521295AEBC000B21A40 /* CoditasUtilTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		18BF4534295AED0100B21A40 /* CoditasYtilExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BF4546295AED0400B21A40 /* Build configuration list for PBXNativeTarget "CoditasYtilExample" */;
+			buildPhases = (
+				18BF4531295AED0100B21A40 /* Sources */,
+				18BF4532295AED0100B21A40 /* Frameworks */,
+				18BF4533295AED0100B21A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoditasYtilExample;
+			productName = CoditasYtilExample;
+			productReference = 18BF4535295AED0100B21A40 /* CoditasYtilExample.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -149,6 +203,9 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					18BF4520295AEBC000B21A40 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					18BF4534295AED0100B21A40 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -168,6 +225,7 @@
 			targets = (
 				18BF4516295AEBC000B21A40 /* CoditasUtil */,
 				18BF4520295AEBC000B21A40 /* CoditasUtilTests */,
+				18BF4534295AED0100B21A40 /* CoditasYtilExample */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +242,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BF4533295AED0100B21A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BF4544295AED0400B21A40 /* LaunchScreen.storyboard in Resources */,
+				18BF4541295AED0400B21A40 /* Assets.xcassets in Resources */,
+				18BF453F295AED0100B21A40 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +274,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		18BF4531295AED0100B21A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BF453C295AED0100B21A40 /* ViewController.swift in Sources */,
+				18BF4538295AED0100B21A40 /* AppDelegate.swift in Sources */,
+				18BF453A295AED0100B21A40 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -215,6 +293,25 @@
 			targetProxy = 18BF4523295AEBC000B21A40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18BF453D295AED0100B21A40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BF453E295AED0100B21A40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18BF4542295AED0400B21A40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18BF4543295AED0400B21A40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		18BF4529295AEBC000B21A40 /* Debug */ = {
@@ -425,6 +522,62 @@
 			};
 			name = Release;
 		};
+		18BF4547295AED0400B21A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 486FNFGJVF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoditasYtilExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = coditas.com.CoditasYtilExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18BF4548295AED0400B21A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 486FNFGJVF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CoditasYtilExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = coditas.com.CoditasYtilExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -451,6 +604,15 @@
 			buildConfigurations = (
 				18BF452F295AEBC000B21A40 /* Debug */,
 				18BF4530295AEBC000B21A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BF4546295AED0400B21A40 /* Build configuration list for PBXNativeTarget "CoditasYtilExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BF4547295AED0400B21A40 /* Debug */,
+				18BF4548295AED0400B21A40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
