@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
 This CocoaPods library helps you use the Coditas's Utilities.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/CoditasUtil"
+  spec.homepage     = "https://github.com/suhas-coditas/CoditasUtil"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -40,7 +40,7 @@ This CocoaPods library helps you use the Coditas's Utilities.
   #
 
   # spec.license      = "MIT (example)"
-   spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+   spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -68,7 +68,7 @@ This CocoaPods library helps you use the Coditas's Utilities.
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+   spec.ios.deployment_target = "12.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
